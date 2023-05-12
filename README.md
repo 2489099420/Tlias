@@ -11,7 +11,7 @@
 4. 启动项目
 在前端工程根目录下执行以下命令启动前端工程：    npm run dev 在后端工程目录下执行以下命令启动后端工程：    mvn spring-boot:run 至此，您已经完成本项目的安装过程
 
-#Tip
+# Tip
 sql文件在resource文件下 需要修改的内容有：
 mysql数据库账号密码
 
