@@ -1,41 +1,12 @@
-#spring:
-#  #数据库的连接信息
-#  datasource:
-#    driver-class-name: com.mysql.cj.jdbc.Driver
-##    url: jdbc:mysql://localhost:3306/tlias
-##    username: root
-##    password: root
-#      url: jdbc:mysql://47.94.101.19:3306/tlias
-#      username: tlias
-#      password: tlias
-#  #文件上传的配置
-#  servlet:
-#    multipart:
-#      max-file-size: 10MB
-#      max-request-size: 100MB
-##MyBatis配置
-#mybatis:
-#  configuration:
-#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-#    map-underscore-to-camel-case: true
-##阿里云OSS配置
-#aliyun:
-#  oss:
-#    endpoint: https://oss-cn-hangzhou.aliyuncs.com
-#    accessKeyId: LTAI5tPU4Z5g3exdudtCQaYV
-#    accessKeySecret: t1JiHLburrU2q9qW3Kc9dypQCiYqQH
-#    bucketName: web-list
-##spring事务管理
-#logging:
-#  level:
-#    org.springframework.jdbc.support.JdbcTransactionManager: debug
+server:
+  port: 8868
 spring:
   #数据库连接信息
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.94.101.19:3306/tlias
-    username: tlias
-    password: tlias
+    url: 
+    username: 
+    password: 
   #文件上传的配置
   servlet:
     multipart:
@@ -51,6 +22,9 @@ mybatis:
 aliyun:
   oss:
     endpoint: https://oss-cn-hangzhou.aliyuncs.com
-    accessKeyId: LTAI4GCH1vX6DKqJWxd6nEuW
-    accessKeySecret: yBshYweHOpqDuhCArrVHwIiBKpyqSL
-    bucketName: web-tlias
+    accessKeyId: 
+    accessKeySecret: 
+    bucketName: 
+logging:
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManager: debug
